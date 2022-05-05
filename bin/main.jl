@@ -1,6 +1,8 @@
+
 using Conda; Conda.add("jupyter")
-using Pkg; 
-using IJulia
+ENV["JUPYTER"]=""
+ENV["PYTHON"]=""
+using Pkg; Pkg.build("IJulia")
 
 a = abspath(realpath(joinpath(@__DIR__, "..")))
 @info a 
