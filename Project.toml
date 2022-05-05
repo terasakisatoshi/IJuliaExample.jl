@@ -1,0 +1,7 @@
+name = "IJuliaExample"
+uuid = "537e7ba1-0c27-4b15-9feb-f9ab37750112"
+authors = ["SatoshiTerasaki <terasakisatoshi.math@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
